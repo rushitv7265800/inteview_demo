@@ -1,0 +1,108 @@
+.homePage {
+  display: flex;
+  align-items: flex-start;
+}
+.animationFilter {
+  width: 40%;
+}
+
+.showCanvas {
+  width: 60%;
+}
+.textBox {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #e1e4e7;
+  border-radius: 7px;
+  margin: 10px;
+}
+.textBox h6 {
+  color: #0d1216;
+  margin: 0px;
+  opacity: 0.8;
+  font-size: 13px;
+  text-align: left;
+}
+.styleFont {
+  margin-top: 10px;
+  padding: 30px 20px;
+  display: flex;
+  border-top: 1px solid #e1e4e7;
+  align-items: center;
+}
+
+.styleFont .fontBox {
+  margin: 0px 10px;
+  position: relative;
+}
+.styleFont .fontBox button {
+  border-radius: 4px;
+  content: "";
+  padding: 16px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 0 1px rgba(43, 59, 74, 0.3);
+  transition: box-shadow 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+.fontBoxButtonActive {
+  box-shadow: 0 0 0 2px #8b3dff, inset 0 0 0 2px #fff !important;
+}
+.fontBox button:hover {
+  box-shadow: 0 0 0 2px #8b3dff, inset 0 0 0 2px #fff;
+}
+
+.fontBox span {
+  font-weight: 400;
+  font-size: 12px;
+  overflow: hidden;
+  text-align: center;
+  color: #0d1216;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fontBox button img {
+  width: 65px;
+  height: 65px;
+}
+
+.animationText {
+  padding-top: 10px;
+  border-top: 1px solid #e1e4e7;
+}
+
+.animationText .fontBox button img {
+  width: 70px;
+  height: 70px;
+}
+
+.speedProgress {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.speedProgress h6 {
+}
+
+.speedProgress .MuiSlider-root {
+  margin-top: 10px !important;
+}
+
+.showPage {
+  box-shadow: 0 4px 32px -14px rgba(64, 87, 109, 0.3);
+  background: rgb(255, 255, 255);
+  min-height: 800px;
+  height: 100%;
+  max-width: 50%;
+  margin: 0px 127px;
+  margin-top: 40px;
+}
+.showPage canvas {
+  margin-top: 40px;
+}
